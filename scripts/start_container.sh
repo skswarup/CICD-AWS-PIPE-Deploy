@@ -5,4 +5,4 @@ set -e
 docker pull skswarup/python-flask-app
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 skswarup/python-flask-app
+docker run -d -p 8000:8000 skswarup/python-flask-app
